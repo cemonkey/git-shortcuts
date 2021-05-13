@@ -1,0 +1,8 @@
+# aliases (save to ~/.zshrc on mac)
+alias gitl='git log --graph --remotes --decorate --branches --stat --tags'
+alias gitco='git checkout'
+alias gitf='git fetch --all'
+alias gitm='gitf && gitco master && git rebase'
+alias gits='git status'
+alias gitsv='git status -vv'
+alias gitrh='git reset --hard HEAD'
